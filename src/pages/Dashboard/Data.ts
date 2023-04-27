@@ -1,0 +1,91 @@
+export const data = [{
+    "id": 1,
+    "period": "2022-08",
+    "inflow": 70,
+    "debt": 67,
+    "investment": 62,
+    "savings": 22,
+    "expenses": 78,
+    "rollover": 54
+}, {
+    "id": 2,
+    "period": "2021-11",
+    "inflow": 78,
+    "debt": 77,
+    "investment": 54,
+    "savings": 5,
+    "expenses": 84,
+    "rollover": 31
+}, {
+    "id": 3,
+    "period": "2021-09",
+    "inflow": 52,
+    "debt": 47,
+    "investment": 80,
+    "savings": 27,
+    "expenses": 79,
+    "rollover": 18
+}, {
+    "id": 4,
+    "period": "2021-06",
+    "inflow": 74,
+    "debt": 23,
+    "investment": 12,
+    "savings": 52,
+    "expenses": 71,
+    "rollover": 60
+}, {
+    "id": 5,
+    "period": "2022-06",
+    "inflow": 63,
+    "debt": 25,
+    "investment": 13,
+    "savings": 62,
+    "expenses": 38,
+    "rollover": 11
+}, {
+    "id": 6,
+    "period": "2022-12",
+    "inflow": 54,
+    "debt": 3,
+    "investment": 8,
+    "savings": 78,
+    "expenses": 85,
+    "rollover": 38
+}, {
+    "id": 7,
+    "period": "2022-05",
+    "inflow": 65,
+    "debt": 79,
+    "investment": 96,
+    "savings": 72,
+    "expenses": 10,
+    "rollover": 57
+}, {
+    "id": 8,
+    "period": "2022-07",
+    "inflow": 1,
+    "debt": 81,
+    "investment": 75,
+    "savings": 19,
+    "expenses": 37,
+    "rollover": 87
+}, {
+    "id": 9,
+    "period": "2022-09",
+    "inflow": 68,
+    "debt": 13,
+    "investment": 62,
+    "savings": 97,
+    "expenses": 89,
+    "rollover": 91
+}, {
+    "id": 10,
+    "period": "2022-03",
+    "inflow": 81,
+    "debt": 21,
+    "investment": 42,
+    "savings": 82,
+    "expenses": 99,
+    "rollover": 55
+}]
