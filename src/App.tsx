@@ -1,14 +1,17 @@
-import React from 'react';
 import './App.css';
-import { Button, Skeleton } from '@mui/material';
+import AppGrid from './components/AppGrid';
+import AppRouter from './components/AppRouter';
+import AppThemeProvider from './components/AppThemeProvider';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Skeleton variant="rectangular" width={210} height={118} />
-      <Button variant="contained">Hello World</Button>
-      </header>
+    <div className='bbp-container'>
+    <AppGrid>
+      <AppThemeProvider>
+       <AppRouter/>
+      </AppThemeProvider>
+    </AppGrid>
     </div>
   );
 }
