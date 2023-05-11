@@ -1,20 +1,18 @@
-import React from 'react';
 import './App.css';
-import AppThemeProvider from './components/AppThemeProvider';
 import AppGrid from './components/AppGrid';
-import Dashboard from './pages/Dashboard/Dashboard';
+import AppRouter from './components/AppRouter';
+import AppThemeProvider from './components/AppThemeProvider';
 
 
 function App() {
   return (
+    <div className='bbp-container'>
     <AppGrid>
       <AppThemeProvider>
-        <>
-          <Dashboard />
-        </>
+       <AppRouter/>
       </AppThemeProvider>
-
     </AppGrid>
+    </div>
   );
 }
 

@@ -1,0 +1,5 @@
+
+export const FIELD_TYPE ={
+    TEXT_FIELD: 'TEXT_FIELD',
+    SINGLE_SELECT:'SINGLE_SELECT'
+}

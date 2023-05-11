@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-
-function PageShell() {
+type PageShellProps = {
+    children: ReactElement;
+}
+function PageShell(props: PageShellProps) {
+    const { children } = props;
     return (
         <>
             <Header />
+            {children}
             <Footer />
         </>
     );
